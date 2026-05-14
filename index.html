@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exhibition of video game history</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+<section id="Navigation_Section">
+
+    <div class="logo">
+        <a href="#Hero_Section">
+           <img src="assets/Hachimi78 logo.png" alt="logo" width="170" height="90"> 
+        </a>
+    </div>
+
+    <div class="navigation">
+        <div class="navigationbox"><a href="#introduction">Famous games from different periods</a></div>
+        <div class="navigationbox"><a href="#contact">Contact us</a></div>
+        <div class="navigationbox"><a href="#game-history-accordion">Game History</a></div>
+    </div>
+
+    <div class="burger-menu" id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <div class="login">
+        <button id="registerBtnNav">Register</button>
+        <button id="loginBtnNav"> Login</button>
+    </div>
+
+
+</section>
+
+<section id="Hero_Section">
+    
+    <div class="carousel">
+
+        <div class="slides">
+
+            <div class="slide active">
+                <img src="assets/tetris.jpg" alt="tetris" class="poster">
+                <div class="caption">
+                    <h2 style="font-family: tetris;">Tetris(1989)</h2>
+                    
+                </div>
+            </div>
+
+            
+        </div> 
+
+            <div class="slide">
+                <img src="assets/supermario64.webp" alt="Super Mario Bros" class="poster">
+                <div class="caption">
+                    <h2 style="font-family: supermariobros;">Super Mario 64(1996)</h2>
+                    
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="assets/GTA3.jpg" alt="gta3" class="poster">
+                <div class="caption">
+                    <h2 style="font-family: gta; font-size: 45px;">Grand Theft Auto 3(2001)</h2>
+                    
+                </div>
+            </div>
+
+            <div class="slide">
+                <img src="assets/minecraft.jpg" alt="minecraft" class="poster">
+                <div class="caption">
+                    <h2 style="font-family: determination;">Minecraft(2011)</h2>
+                    
+                </div>
+            </div>
+
+            
+
+            <div class="slide">
+                <img src="assets/the legend of zelda tears of the kingdom.jpg" alt="the legend of zelda tears of the kingdom" class="poster">
+                <div class="caption">
+                    <h2 style="font-family: zelda;">The Legend of Zelda: Tears of the Kingdom(2023)</h2>
+                    
+                </div>
+            </div>
+            
+            <div class="navigationdot">
+                <button class="dot active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+            <button class="carousel-button" id="prev">&#10094;</button>
+            <button class="carousel-button" id="next">&#10095;</button>
+    </div>
+
+
+
+</section>
+
+
+
+
+<section id="introduction">
+    <h2>Famous games from different periods!</h2>
+    <div class="gameDisplay1970s-1980s">
+        <p>1970-1980s</p>
+        <div class="gameImgBox">
+            <div class="image-container" data-title="Pong(1972)" data-video="assets/videos/pong.mp4" data-description= "“Pong” is a coin-operated arcade game launched by ATARI on November 29, 1972. The game is considered a pioneering work in the video game industry, and its English name “Pong” comes from the sound made when a ping pong ball is hit. The prototype of the game can be traced back to the oscilloscope game Willie Higinbotham.">
+                <img src="assets/pong.jpg" alt="pong" class="card"> 
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="Super Mario Bros(1985)" data-video="assets/videos/super-mario-bros.mp4" data-description="The original work of the Super Mario series was released on the Famicom in 1985. The series focuses on side-scrolling level progression, where players control Mario or Luigi to stomp on mushrooms, hit bricks, collect coins, and defeat Bowser to save the princess.">
+                <img src="assets/Super Mario Bros.webp" alt="super mario bros" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="Tetris(1989)" data-video="assets/videos/tetris.mp4" data-description="“Tetris” is a casual game invented by the Russian Alexey Pajitnov in June 1984. Blocks randomly fall from above, and players move and rotate these geometric blocks to arrange them into complete horizontal lines to score points. The simple rules combined with electronic music create a unique gameplay experience.">
+                <img src="assets/tetris.jpeg" alt="tetris" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="gameDisplay1990s-2000s">
+        <p>1990-2000s</p>
+        <div class="gameImgBox">
+            <div class="image-container" data-title="Doom(1993)" data-video="assets/videos/doom.mp4" data-description="Doom is a first-person shooter game developed by id Software, originally released on December 10, 1993, for the MS-DOS platform. The game is widely regarded as a key title that pushed the first-person shooter (FPS) genre into the mainstream, known for its fast-paced combat, pseudo-3D graphics, network multiplayer support, and customizable WAD file system.">
+                <img src="assets/doom.webp" alt="doom" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="Super Mario 64(1996)" data-description="Super Mario 64 is an action game released by Nintendo in 1996, and it was a launch title for the N64 console. The game centers on Mario exploring 3D sandbox levels to collect Power Stars, and it was the first to introduce free camera angles and multi-axis movement controls, laying the foundation for modern 3D action games.">
+                <img src="assets/super mario 64.webp" alt="super mario 64" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="World of Warcraft(2004)" data-video="assets/videos/worldofwarcraft.mp4" data-description="“World of Warcraft”, abbreviated as WoW or Warcraft, is a massively multiplayer online role-playing game developed and produced by the game company Blizzard Entertainment. In “World of Warcraft,” players adventure, complete quests, explore unknown worlds, and conquer monsters.">
+                <img src="assets/world of warcraft.jpg" alt="world of warcraft" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="Slient Hill 2(1996)" data-video="assets/videos/silent hill2.mp4" data-description="Silent Hill 2 is a famous psychological horror video game series, published by the Japanese game company Konami, with development beginning in September 1996. The series contains mystical elements beyond human understanding and conveys a gloomy atmosphere that is difficult to describe in words.">
+                <img src="assets/silent hill2.png" alt="slient hill 2" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="Resident Evil 2(1998)" data-video="assets/videos/resident evil2.mp4" data-description="“Resident Evil 2” is an action-adventure game developed and published by CAPCOM, released on the PlayStation console on January 29, 1998. As a sequel to “Resident Evil,” the game tells the story of Leon and Claire, the new protagonists, who face streets filled with zombies and struggle to survive a few months after the mansion incident, when a bioweapon leaked from Umbrella's underground laboratory and spread to the city.">
+                <img src="assets/resident evil2.png" alt="re2" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="Dead Space(2006)" data-video="assets/videos/dead space.mp4" data-description="“Dead Space” is a third-person horror shooting game developed and published by Electronic Arts in the United States. It was released in 2006 and uses a unique 3D holographic display style. Players take on the role of engineer Isaac Clarke, surviving on a spaceship filled with aliens.">
+                <img src="assets/dead space.png" alt="dead space" class="card">
+                <div class="outlayer"></div>
+            </div>
+           
+        </div>
+    </div>
+
+    <div class="gameDisplay2010s-2020s">
+        <p>2010-2020s</p>
+        <div class="gameImgBox">
+            <div class="image-container" data-title="Minecraft(2011)" data-video="assets/videos/minecraft.mp4" data-description="Minecraft is a sandbox video game maintained by Mojang Studios, now part of Microsoft Xbox Game Studios. The game was initially released as the Classic version on May 17, 2009, and the official Java version was released on November 18, 2011. The game revolves around players freely creating and breaking different types of blocks in a three-dimensional space filled with blocks.">
+                <img src="assets/mc.webp" alt="minecraft" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="League of Legends(2012)" data-video="assets/videos/lol.mp4" data-description="“League of Legends” (abbreviated as LOL) is a hero battle MOBA competitive online game developed by Riot Games in the United States and operated in mainland China by Tencent Games. Players need to achieve victory by controlling their characters, choosing items, killing enemy heroes, destroying the opponent's turrets, and ultimately destroying the Nexus.">
+                <img src="assets/league of legends.webp" alt="lol" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+            <div class="image-container" data-title="Grand Theft Auto 5(2013)" data-video="assets/videos/gta5.mp4" data-description="Grand Theft Auto V, GTA5, is an open-world action-adventure game developed by Rockstar Games, and it was released on September 17, 2013. The game Grand Theft Auto V is set in the fictional U.S. state of San Andreas (modeled after Southern California). Players can play in third-person or first-person view, freely interact with the game world, and roam at will through the deserts and the fictional city of Los Santos (modeled after Los Angeles).">
+                <img src="assets/GTA5.png" alt="gta5" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="The Witcher 3 Wild Hunt(2015)" data-video="assets/videos/witcher3.mp4" data-description="The game is adapted from the novel series 'The Witcher' and is the third installment of 'The Witcher' series, as well as the finale of Geralt's adventures. In the game, players will play as the witcher Geralt. By completing quests and defeating monsters, they can earn experience points, unlock skill slots and mutagen slots for character customization.">
+                <img src="assets/the witcher 3 wild hunt.png" alt="w3" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="Civilization 5(2010)" data-video="assets/videos/c5.mp4" data-description="Civilization V is a historical strategy turn-based game developed by Firaxis Games and published by 2K, released worldwide on September 24, 2010. Players need to build and lead a human civilization into the space age, becoming the ruler of the world: waging wars, engaging in diplomacy, discovering new technologies, meeting some of the greatest leaders in history face to face, and establishing the most powerful empire in the world.">
+                <img src="assets/civilization5.png" alt="c5" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="Hearthstone(2014)" data-video="assets/videos/hearthstone.mp4" data-description="'Hearthstone,' as Blizzard's flagship game, is also an extension of the classic 'Warcraft' series. In the game, players can choose one of the nine iconic heroes from the Warcraft series and build their own unique deck around the hero's class, competing against other players to win new cards.">
+                <img src="assets/hearthstone.png" alt="hearthstone" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="Cuphead(2017)" data-video="assets/videos/cuphead.mp4" data-description="Cuphead is a run-and-gun platformer game developed by Studio MDHR. Cuphead was released on the Nintendo Switch platform on April 18, 2019. In the game, players will take on the role of Cuphead or Mugman, traversing a strange world, collecting new weapons, mastering powerful and cool moves, and exploring hidden secrets, fighting to pay off the debt owed to the devil.">
+                <img src="assets/cuphead.png" alt="cuphead" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="God of War(2022)" data-video="assets/videos/godofwar.mp4" data-description="God of War: Ragnarök is an action-adventure video game developed by Santa Monica Studio and published by Sony Interactive Entertainment, officially released on November 9, 2022. The game's storyline continues from the previous installment, God of War 4, with the Fimbulwinter raging. Kratos and Atreus must explore the Nine Realms to uncover the truth, while the Asgardian army prepares fully for the prophesied final battle.">
+                <img src="assets/God of war.png" alt="god of war" class="card">
+                <div class="outlayer"></div>
+            </div>
+
+            <div class="image-container" data-title="The Last of Us(2023)" data-video="assets/videos/thelastofus.mp4" data-description="“The Last of Us” is a third-person action-adventure game developed by Naughty Dog. The story takes place 20 years after a pandemic outbreak, at a time when the world is filled with infected humans, and survivors kill each other for food and weapons. Smuggler Joel is hired to smuggle a young girl, Ellie, out of a military quarantine zone, but what starts as a small job quickly turns into a challenging and twisting journey across the United States.">
+                <img src="assets/the last of us.png" alt="the last of us" class="card">
+                <div class="outlayer"></div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    
+    
+
+</section>
+
+
+
+
+
+<section id="game-history-accordion" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Dive into Game History</h2>
+
+        <div class="accordion" id="gameHistoryAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#consoleEvolution">
+                            Game Console Evolution
+                    </button>
+                </h2>
+                <div id="consoleEvolution" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>The evolution of game consoles has shaped the entire video game industry:</p>
+                        <ul>
+                            <li><strong>1972: Magnavox Odyssey</strong> - The first home video game console</li>
+                            <li><strong>1977: Atari 2600</strong> - Popularized cartridge-based gaming</li>
+                            <li><strong>1985: Nintendo Entertainment System (NES)</strong> - Revived the video game industry after the 1983 crash</li>
+                            <li><strong>1994: PlayStation</strong> - Introduced CD-ROM technology and 3D gaming</li>
+                            <li><strong>2001: Xbox</strong> - Microsoft entered the console market with online gaming focus</li>
+                            <li><strong>2020: PlayStation 5 & Xbox Series X</strong> - Current generation with 4K/8K support and SSD storage</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#genreEvolution">
+                            Video Game Genre Evolution
+                    </button>
+                </h2>
+                <div id="genreEvolution" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>Game genres have evolved dramatically over the decades:</p>
+                        <ul>
+                            <li><strong>1970s: Arcade & Sports</strong> - Pong, Space Invaders established basic gameplay</li>
+                            <li><strong>1980s: Platformers & RPGs</strong> - Super Mario Bros. defined platforming; Final Fantasy popularized JRPGs</li>
+                            <li><strong>1990s: FPS & 3D Platformers</strong> - Doom revolutionized first-person shooters; Super Mario 64 invented 3D platforming</li>
+                            <li><strong>2000s: Open World & MMOs</strong> - GTA III created the modern open world; World of Warcraft dominated MMOs</li>
+                            <li><strong>2010s: MOBA & Battle Royale</strong> - League of Legends and Fortnite became global phenomena</li>
+                            <li><strong>2020s: Soulslike & Physics-Based</strong> - Elden Ring and Tears of the Kingdom pushed gameplay innovation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#esportsHistory">
+                            Esports & Competitive Gaming
+                    </button>
+                </h2>
+                <div id="esportsHistory" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>Esports has grown from small local tournaments to a billion-dollar industry:</p>
+                        <ul>
+                            <li><strong>1972: First Video Game Competition</strong> - Spacewar! tournament at Stanford University</li>
+                            <li><strong>1997: Red Annihilation</strong> - First major Quake tournament with a Ferrari as prize</li>
+                            <li><strong>2002: MLG Founded</strong> - Major League Gaming became the first professional esports league</li>
+                            <li><strong>2011: The International</strong> - Dota 2 tournament with the largest prize pool in esports history</li>
+                            <li><strong>2018: Esports in Asian Games</strong> - Esports became a demonstration sport at the Asian Games</li>
+                            <li><strong>2023: League of Legends World Championship</strong> - Reached over 150 million peak viewers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#gameMusic">
+                            Video Game Music Milestones
+                    </button>
+                </h2>
+                <div id="gameMusic" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>Video game music has become an art form in its own right:</p>
+                        <ul>
+                            <li><strong>1985: Super Mario Bros. Theme</strong> - Koji Kondo's iconic theme is recognized worldwide</li>
+                            <li><strong>1994: Final Fantasy VI</strong> - Nobuo Uematsu's soundtrack revolutionized game music storytelling</li>
+                            <li><strong>1998: The Legend of Zelda: Ocarina of Time</strong> - Music became an integral part of gameplay</li>
+                            <li><strong>2007: Halo 3</strong> - Orchestral soundtrack performed by the London Symphony Orchestra</li>
+                            <li><strong>2012: Journey</strong> - Grammy-nominated soundtrack that won multiple awards</li>
+                            <li><strong>2023: The Legend of Zelda: Tears of the Kingdom</strong> - Epic soundtrack that blends traditional and modern elements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#industryMilestones">
+                            Global Game Industry Milestones
+                    </button>
+                </h2>
+                <div id="industryMilestones" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>The video game industry has become the largest entertainment industry in the world:</p>
+                        <ul>
+                            <li><strong>1972: Atari Founded</strong> - The first successful video game company</li>
+                            <li><strong>1983: Video Game Crash</strong> - Industry revenue dropped by 97% in North America</li>
+                            <li><strong>1990: Nintendo Dominance</strong> - Nintendo controlled 90% of the global video game market</li>
+                            <li><strong>2008: Digital Distribution</strong> - Steam and Xbox Live Arcade popularized digital game sales</li>
+                            <li><strong>2018: $100 Billion Industry</strong> - Global game revenue surpassed $100 billion for the first time</li>
+                            <li><strong>2023: $184 Billion Industry</strong> - Gaming is now bigger than movies and music combined</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                            data-bs-toggle="collapse" 
+                            data-bs-target="#futureTrends">
+                            Future of Video Games
+                    </button>
+                </h2>
+                <div id="futureTrends" class="accordion-collapse collapse" 
+                     data-bs-parent="#gameHistoryAccordion">
+                    <div class="accordion-body">
+                        <p>The future of video games looks incredibly exciting with these emerging technologies:</p>
+                        <ul>
+                            <li><strong>Virtual Reality (VR)</strong> - Meta Quest and PlayStation VR2 are making VR more accessible</li>
+                            <li><strong>Augmented Reality (AR)</strong> - Pokémon Go showed the potential of AR gaming</li>
+                            <li><strong>Cloud Gaming</strong> - Xbox Cloud Gaming and GeForce Now allow gaming on any device</li>
+                            <li><strong>AI-Generated Content</strong> - AI will revolutionize game development and create dynamic worlds</li>
+                            <li><strong>Cross-Platform Play</strong> - Seamless gaming across consoles, PC, and mobile devices</li>
+                            <li><strong>Metaverse</strong> - Persistent virtual worlds that blend gaming, social, and entertainment</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="noneMemberContent" class="noneMemberContent">
+    <div>
+        <h1>Log in to see your perfect game!</h1>
+    </div>
+</section>
+
+<section id="memberContent" class="memberContent hidden">
+
+    <div id="app">
+        <h1>Find your perfect game</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-6" v-for="genre in genre" :key="genre">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" v-model="selectedGenre" :value="genre" :id="genre">
+                        <label class="form-check-label" :for="genre">{{ genre }}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 col-md-4 mx-auto mt-4">
+            <button @click="findGame" class="btn btn-primary btn-lg">
+                <span v-if="loading">Finding...</span>
+                <span v-else>Find perfect game</span>
+            </button>
+        
+            <button @click="clearAll" class="btn btn-clear btn-lg">Clear All</button>
+        </div>
+            <div v-show="loading" class="text-center mt-4">
+                <div class="spinner-border text-success" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+            <div v-if="result" class="game-result">
+                <h2>You may like:{{result.name}}</h2>
+
+                <img :src="result.image" :alt="result.name" class="game-img img-fluid mt-3 mx-auto d-block">
+                <p class="mt-4 lead">{{result.description}}</p>
+                <div class="mt-3">
+                    <span v-for="genre in result.genre" :key="genre" class="badge bg-success me-2">{{genre}}</span>
+                </div>
+            </div>
+
+            <div v-else-if="noResult" class="alert alert-warning mt-4 text-center">
+                <h4>No perfect match found!</h4>
+                <p>Try selecting different game types</p>
+            </div>
+
+    </div>
+
+</section>
+
+
+
+
+<section id="contact">
+
+     <form id="registrationForm">
+        <h1>Contact us</h1> 
+        <div class="registerNameBox">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" ><br>
+            <span class="error" id="nameError"></span><br><br>
+        </div>
+        
+        <div class="registerEmailBox">
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+            <span class="error" id="emailError"></span><br><br>
+        </div>
+        
+        <div class="registerDobBox">
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob" ><br>
+            <span class="error" id="dobError"></span><br><br>
+        </div>
+
+        <label for="gender">Gender:</label>
+        <div class="registerGenderBox">
+            <div class="male">
+                <label for="male"> Male </label>
+                <input type="radio" id="male" name="gender" value="male" >
+            </div>
+            <div class="female"> 
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" >
+            </div>
+            
+        </div>
+
+        <div class="genderErrorSpan">
+            <span class="error" id="genderError"></span>
+        </div>
+            
+        <div class="registerFavouriteGameAboveBox">
+            <label for="favGame">Your favourite period</label><br>
+            <select name="favGame" id="favGame">
+                <option value="">--Select--</option>
+                <option value="Game1">1970s-1980s</option>
+                <option value="Game2">1990s-2000s</option>
+                <option value="Game3">2010s-2020s</option>
+            </select><br>
+        <span class="error" id="favGameError"></span><br><br>
+        </div>
+
+        <div class="registerCommentsBox">
+            <label for="comments">Why you like that period</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+            <span class="error" id="commentError"></span>
+        </div>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <img src="assets/sans.gif" alt="sans">
+
+</section>
+
+<div id="gameModal" class="modal">
+    <div class="modal-content">
+       <span class="close-modal">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <img id="modalImage" src="" alt="" style="display: none;">
+        <video id="modalVideo" controls style="display: none; max-width: 100%;"></video>
+        <p id="modalDescription"></p> 
+    </div>
+</div>
+
+
+
+<div id="registrationModal" class="regisModal">
+    <div id="registerSection">
+        <h2>Register</h2>
+
+        <input type="text" id="regName" placeholder="Full name">
+        <input type="text" id="regUsername" placeholder="Username">
+        <input type="password" id="regPassword" placeholder="Password">
+    
+        <button id="registerBtn">Register</button>
+    </div>
+</div>
+
+<div id="loginModal" class="logModal">
+    <div id="loginSection">
+        <h2>Login</h2>
+
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+
+        <button id="loginBtn">Login</button>
+    </div>
+</div>
+
+<div id="messageModal" class="message-modal">
+    <div class="message-modal-content">
+        <span class="message-close-modal">&times;</span>
+        <h2 id="messageTitle"></h2>
+        <p id="messageText"></p>
+        <button id="messageOkBtn" class="btn btn-primary mt-3">OK</button>
+    </div>
+</div>
+
+
+
+
+
+
+<section>
+    <footer id="footer">
+    <div class="footer-container">
+
+        <!-- Logo -->
+        <div class="footer-logo">
+            <h2>🎮Exhibition of Video Game History🎮</h2>
+            <h5>Hachimi78</h5>
+        </div>
+
+       
+        <div class="footer-social">
+            <p>#</p>
+            <p>Φ</p>
+            <p>ω</p>
+            <p>Φ</p>
+            <p>#</p>
+        </div>
+
+        <!-- 回到顶部 -->
+        <button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+            ↑ Back to Top
+        </button>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 Hachimi78 · All Rights Reserved
+    </div>
+</footer>
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>   
+    <script src="script.js"></script>
+</body>
+</html>
+
