@@ -303,7 +303,9 @@ loginBtn.addEventListener("click", () => {
         const existingUser = users.find(u => u.username === username);
         
         if (!existingUser) {
-            showMessageModal("No account found with this username. Would you like to register?");
+            showMessageModal("No account found with this username.");
+            loginUsername.value="";
+            loginPassword.value="";
             if (shouldRegister) {
                 hideModal(loginModal);
                 showModal(registrationModal);

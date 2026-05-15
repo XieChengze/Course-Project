@@ -273,6 +273,13 @@ body{
     font-family: determination;
 }
 
+.memberContent{
+    font-family: determination;
+}
+
+.memberContent h1{
+    font-family: determination;
+}
 
 .gameDisplay1970s-1980s{
     background-color:rgba(0, 0, 0, 0.865);
@@ -667,7 +674,7 @@ body{
 
 
 
-/* ===== Footer 主样式 ===== */
+/* ===== Footer ===== */
 #footer {
     background: linear-gradient(135deg, #2b2b2b, #1f1f1f);
     color: #e0e0e0;
@@ -697,7 +704,7 @@ body{
     color: #4caf50;
 }
 
-/* 社交图标 */
+
 .footer-social {
     display: flex;
     gap: 6px;
@@ -729,7 +736,7 @@ body{
     padding-top: 15px;
 }
 
-/* ===== 响应式 ===== */
+
 @media (max-width: 768px) {
     .footer-container {
         flex-direction: column;
